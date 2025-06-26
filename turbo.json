@@ -11,7 +11,7 @@
     "dev": {
       "persistent": true,
       "cache": false
-    },
-    "globalEnv": ["DATABASE_URI", "PAYLOAD_SECRET"]
-  }
+    }
+  },
+  "globalEnv": ["DATABASE_URI", "PAYLOAD_SECRET"]
 }
