@@ -3,8 +3,7 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", "build/**"],
-      "inputs": ["apps/**", "package.json", "tsconfig.json"]
+      "outputs": ["dist/**", ".vercel/output/**"]
     },
     "check-types": {
       "dependsOn": ["^check-types"]
