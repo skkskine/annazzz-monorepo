@@ -1,0 +1,17 @@
+{
+  "name": "annazzz-monorepo",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/**"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "serve": "turbo run serve",
+    "lint": "turbo run lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "packageManager": "npm@10.9.2"
+}
